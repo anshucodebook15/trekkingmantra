@@ -8,5 +8,8 @@ export default defineConfig({
     host: '0.0.0.0', // allow external devices
     port: 5173,       // or any other port
   },
+  build: {
+    outDir: 'dist',
+  },
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 });
