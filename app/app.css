@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-poppins: "Poppins", sans-serif;
+
+  --color-primary-500: #fb2b2b;
+  --color-secondary-500: #3068F4;
+}
+
+html,
+body {
+  /* @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  } */
+}
+
+input,
+select {
+  width: 100%;
+}
+
+.appheader {
+  /* background-image: url('/public/assets/utils/header_red_bg.svg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -2rem;
+}
+
+
+.tmword{
+   background-image: url('/public/assets/utils/trekking_mantra_transparent.svg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: 0rem;
+}
