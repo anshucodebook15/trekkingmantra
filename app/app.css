@@ -7,7 +7,9 @@
   --font-poppins: "Poppins", sans-serif;
 
   --color-primary-500: #fb2b2b;
+  --color-primary-600: #ED2828;
   --color-secondary-500: #3068F4;
+  --color-tertiary-500: #F47625;
 }
 
 html,

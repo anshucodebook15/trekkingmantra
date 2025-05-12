@@ -18,7 +18,7 @@ import path from "node:path";
 const ReactCompBP = (component) => {
   return `
 import React from 'react'
-import './${component}.scss'
+// import './${component}.scss'
 
 const ${component} = () => {
   return (
@@ -90,7 +90,7 @@ rl.question(`Is Dir Exits ? Enter dir name : `, (inDirName) => {
             if (error) {
               console.log(error);
             } else {
-              const ReactComp = `${compDirPath}/` + componentName + ".jsx";
+              const ReactComp = `${compDirPath}/` + componentName + ".tsx";
               const CssReactComp = `${compDirPath}/` + componentName + ".scss";
 
               CreateFile(ReactComp, ReactCompBP(componentName));

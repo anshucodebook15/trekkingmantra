@@ -11,7 +11,6 @@ const Banner = () => {
           <img src={bannerImg("home_banner.png")} alt="" />
         </div>
       </Container>
-     
     </div>
   );
 };

@@ -9,7 +9,10 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="border-1 bg-white border-gray-300 rounded-full shadow-[0_4px_5px_rgba(0,0,0,0.059)] mb-2 lg:w-[40%]">
+    <div
+      className="border-1 bg-white border-gray-300 rounded-full
+     shadow-[0_4px_5px_rgba(0,0,0,0.059)] mb-2 lg:w-[50%]"
+    >
       <div className="relative searchbar flex items-center">
         {oninputpress ? (
           ""
