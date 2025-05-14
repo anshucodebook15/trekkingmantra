@@ -5,7 +5,7 @@ import { bannerImg } from "~/utils/utils";
 
 const Banner = () => {
   return (
-    <div className="Banner">
+    <div className="Banner py-2">
       <Container>
         <div className="px-2">
           <img src={bannerImg("home_banner.png")} alt="" />

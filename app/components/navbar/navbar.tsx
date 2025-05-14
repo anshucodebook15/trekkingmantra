@@ -18,9 +18,9 @@ const NavbarItem = ({
             active ? "" : ""
           } `}
         >
-          <img src={svgIcon(icon)} alt="" className="mb-1 w-10" />
+          <img src={svgIcon(icon)} alt="" className="mb-1 w-8" />
           <h2
-            className={`font-medium text-[14px] mb-[4px] ${
+            className={`font-medium text-[13px] mb-[4px] ${
               active ? "text-primary-500" : "text-gray-600"
             }  `}
           >
@@ -36,7 +36,7 @@ const NavbarItem = ({
 
 const Navbar = () => {
   return (
-    <nav className="navbar bg-white grid items-center grid-cols-3 lg:grid-cols-6 md:grid-cols-6 p-4 shadow-[0_4px_5px_rgba(0,0,0,0.059)] rounded-2xl ">
+    <nav className="navbar bg-white grid items-center grid-cols-3 lg:grid-cols-6 md:grid-cols-6 p-[10px] shadow-[0_4px_5px_rgba(0,0,0,0.059)] rounded-2xl ">
       <NavbarItem icon={"camera"} title={"Spiti Valley"} active={true} />
       <NavbarItem icon={"passport"} title={"Kasol"} active={false} />
       <NavbarItem icon={"travel"} title={"Kashmir"} active={false} />

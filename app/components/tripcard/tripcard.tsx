@@ -46,9 +46,9 @@ const Tripcard = ({
         <div className="tripcard_ratingbar flex justify-between items-baseline mb-1">
           <div itemProp="itinerary">
             <span className="font-bold text-[20px] text-tertiary-500 ">2</span>
-            <span className="text-gray-400 pl-1 text-[14px]">Days &</span>
+            <span className="text-gray-500 pl-1 text-[13px]">Days &</span>
             <span className="font-bold text-[20px] text-tertiary-500"> 3</span>
-            <span className="text-gray-400 pl-1 text-[14px]">Nights</span>
+            <span className="text-gray-500 pl-1 text-[13px]">Nights</span>
           </div>
 
           <div
@@ -72,37 +72,43 @@ const Tripcard = ({
           </div>
         </div>
 
-        <div className="tripcard_title mb-1">
+        <div className="tripcard_title mb-2">
           <h2
             itemProp="name"
-            className="text-[14px] lg:text-[16px] text-gray-800"
+            className="text-[14px] lg:text-[16px] text-gray-700 underline"
           >
-            
             {title}
           </h2>
         </div>
         <div className="tripcard_tagbar flex mb-2">
-          <div className="tripcard_tagbar-tag flex items-center bg-gray-100 w-max p-[4px] mr-2">
+          <div className="tripcard_tagbar-tag flex items-center bg-gray-50 w-max p-[4px] mr-2">
             <img src={svgIcon("camera")} alt="" className="w-6 pr-1" />
-            <span itemProp="includes" className="text-[14px] text-gray-600">
-              River Rafting
-            </span>
+            <div>
+              <span itemProp="includes" className="text-[12px] text-gray-600">
+                River Rafting
+              </span>
+            </div>
           </div>
-          <div className="tripcard_tagbar-tag flex items-center bg-gray-100 w-max p-[4px] mr-2">
+
+          <div className="tripcard_tagbar-tag flex items-center bg-gray-50 w-max p-[4px] mr-2">
             <img src={svgIcon("passport")} alt="" className="w-6 pr-1" />
-            <span itemProp="includes" className="text-[14px] text-gray-600">
-              Picnic
-            </span>
+            <div>
+              <span itemProp="includes" className="text-[12px] text-gray-600">
+                Picnic Spot
+              </span>
+            </div>
           </div>
-          <div className="tripcard_tagbar-tag flex items-center bg-gray-100 w-max p-[4px] mr-2">
+          <div className="tripcard_tagbar-tag flex items-center bg-gray-50 w-max p-[4px] mr-2">
             <img src={svgIcon("travel")} alt="" className="w-6 pr-1" />
-            <span itemProp="includes" className="text-[14px] text-gray-600">
-              Easy Travel
-            </span>
+            <div>
+              <span itemProp="includes" className="text-[12px] text-gray-600">
+                Easy Travel
+              </span>
+            </div>
           </div>
         </div>
 
-        <div className="tripcard_pricebar mb-2 flex items-center">
+        <div className="tripcard_pricebar mb-2 flex items-baseline">
           <h3
             itemProp="name"
             className="text-[16px] lg:text-[20px] font-semibold text-gray-800 mr-2"
@@ -128,7 +134,7 @@ const Tripcard = ({
         <Link to={"#"}>
           <button className="p-2 shadow-[0_4px_5px_rgba(0,0,0,0.059)] flex justify-center items-center bg-primary-500 text-white font-medium rounded-[5px] w-full cursor-pointer hover:bg-primary-600">
             <span>
-              <IoIosCall className="text-[20px] mr-2" />{" "}
+              <IoIosCall className="text-[18px] mr-2" />{" "}
             </span>
             <span>Request Callback</span>
           </button>

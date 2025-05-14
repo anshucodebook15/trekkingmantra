@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <Container>
-        <div className="grid grid-cols-8 px-2">
+        <div className="grid grid-cols-8 px-2 py-2">
           <div className="hidden lg:col-span-1 p-2 lg:flex justify-center">
             <img
               src="/public/assets/logo/logo.png"

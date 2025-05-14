@@ -10,5 +10,8 @@ const bannerImg = (img: string): string => {
 const assetsImg = (img: string): string => {
   return `./assets/${img}`;
 };
+const utilsImg = (img: string): string => {
+  return `./assets/utils/${img}.svg`;
+};
 
-export { ImgPublicPath, svgIcon, bannerImg, assetsImg };
+export { ImgPublicPath, svgIcon, bannerImg, assetsImg,utilsImg };
