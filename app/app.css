@@ -34,14 +34,14 @@ select {
 }
 
 .tmword {
-  background-image: url("/public/assets/utils/trekking_mantra_transparent.svg");
+  background-image: url("/assets/utils/trekking_mantra_transparent.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 0rem;
 }
 
 .trekkingmantra_transparent_bg {
-  background-image: url("/public/assets/utils/trekking_mantra_transparent.svg");
+  background-image: url("/assets/utils/trekking_mantra_transparent.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 0rem;

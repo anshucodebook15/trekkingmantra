@@ -2,6 +2,7 @@ import React from "react";
 import Container from "~/components/container/container";
 import Navbar from "~/components/navbar/navbar";
 import SearchBar from "~/components/searchbar/searchbar";
+import { logoImg } from "~/utils/utils";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         <div className="grid grid-cols-8 px-2 py-2">
           <div className="hidden lg:col-span-1 p-2 lg:flex justify-center">
             <img
-              src="/public/assets/logo/logo.png"
+              src={logoImg('logo.png')}
               alt=""
               className="w-20 h-22"
             />
